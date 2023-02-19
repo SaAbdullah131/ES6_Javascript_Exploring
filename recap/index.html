@@ -11,9 +11,10 @@
         <h1>Welcome to my friendly website</h1>
     </header>
     <main>
-        <section>
+        <section class="friends" >
             <!-- .friend*5>h3.friend-name{$}+p>lorem5 -->
-            <div class="friend">
+            <div id="friends">
+                <div class="friend">
                 <h3 class="friend-name">1</h3>
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>
@@ -21,7 +22,7 @@
                 <h3 class="friend-name">2</h3>
                 <p>Officiis error nam quae ipsa.</p>
             </div>
-            <div class="friend">
+            <div class="friend" id="third-friend">
                 <h3 class="friend-name">3</h3>
                 <p>Quibusdam distinctio magni atque et?</p>
             </div>
@@ -33,7 +34,15 @@
                 <h3 class="friend-name">5</h3>
                 <p>Laudantium quas adipisci assumenda! Culpa.</p>
             </div>
+            </div>
+            <div class="operations">
+                <button id="apply-bg">Apply Background</button>
+                <button id="center-third">Center the Third</button>
+                <button id="add-friend">Add New Friend</button>
+            </div>
         </section>
     </main>
+    <!-- js file connect -->
+    <script src="js/dom.js"></script>
 </body>
 </html>
