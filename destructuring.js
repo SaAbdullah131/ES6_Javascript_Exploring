@@ -21,7 +21,7 @@ const{address}=fish;
 console.log(address);
 
 // array destructuring 
-const [first,another] = [44,99,88,456];
+const [first,another] = [44,99,88,456]; 
 console.log(first,another);
 
 const nayoks = ['sakib','bappi','raj'];
