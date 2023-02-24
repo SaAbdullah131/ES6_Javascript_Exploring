@@ -5,6 +5,10 @@ class Instructor {
     designation = "Web Instructor"
     team = 'web team'
     location;
+    constructor(name,location) {
+        this.name= name;
+        this.location = location;
+    }
     startSupportSession(time){
         console.log(`start the support session at ${time}`);
     }
@@ -12,3 +16,11 @@ class Instructor {
         console.log(`please create quiz for module ${module}`);
     }
 }
+
+const aamir = new Instructor('aamir','mumbai');
+console.log(aamir);
+aamir.startSupportSession('9.00');
+aamir.createQuiz('60');
+
+const solaiman = new Instructor('Solaiman khan','Dhaka');
+console.log(solaiman);
